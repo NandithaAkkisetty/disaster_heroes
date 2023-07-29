@@ -1,0 +1,1235 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 8103 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/HP-PC/Documents/WE project/My project (1)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51519
+Successfully changed project path to: C:/Users/HP-PC/Documents/WE project/My project (1)
+C:/Users/HP-PC/Documents/WE project/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5424] Host "[IP] 192.168.29.67 [Port] 0 [Flags] 2 [Guid] 1404246360 [EditorId] 1404246360 [Version] 1048832 [Id] WindowsEditor(7,Srinija) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5424] Host "[IP] 192.168.29.67 [Port] 0 [Flags] 2 [Guid] 1404246360 [EditorId] 1404246360 [Version] 1048832 [Id] WindowsEditor(7,Srinija) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 146.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/HP-PC/Documents/WE project/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019869 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 705 ms
+Refreshing native plugins compatible for Editor in 65.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.862 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2864ms)
+		BeginReloadAssembly (408ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2191ms)
+			LoadAssemblies (407ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (1449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (915ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (198ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.423662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2858ms)
+		BeginReloadAssembly (473ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (2048ms)
+			LoadAssemblies (443ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (540ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (132ms)
+			SetupLoadedEditorAssemblies (953ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (664ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1337 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (57.8 KB). Loaded Objects now: 1853.
+Memory consumption went from 107.8 MB to 107.7 MB.
+Total: 14.302800 ms (FindLiveObjects: 0.351000 ms CreateObjectMapping: 0.230500 ms MarkObjects: 13.361900 ms  DeleteObjects: 0.357500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6228.640400 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(1a6b8b4fb7911f841ae57ca6e0334558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(1a6b8b4fb7911f841ae57ca6e0334558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a680a659767a21cf0a9a1463ca60b49f') in 0.455535 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (29.0 KB). Loaded Objects now: 1859.
+Memory consumption went from 84.7 MB to 84.7 MB.
+Total: 6.831600 ms (FindLiveObjects: 0.341000 ms CreateObjectMapping: 0.163300 ms MarkObjects: 6.302000 ms  DeleteObjects: 0.024200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (29.0 KB). Loaded Objects now: 1859.
+Memory consumption went from 84.7 MB to 84.7 MB.
+Total: 4.265300 ms (FindLiveObjects: 0.220100 ms CreateObjectMapping: 0.089300 ms MarkObjects: 3.923900 ms  DeleteObjects: 0.030500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1737ms)
+		BeginReloadAssembly (494ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1027ms)
+			LoadAssemblies (397ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1332 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (31.7 KB). Loaded Objects now: 1862.
+Memory consumption went from 111.4 MB to 111.4 MB.
+Total: 5.067300 ms (FindLiveObjects: 0.272400 ms CreateObjectMapping: 0.321800 ms MarkObjects: 4.447000 ms  DeleteObjects: 0.024700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1042.823748 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(fe89a88214a03684a9438c0f293faac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Terrain.asset using Guid(fe89a88214a03684a9438c0f293faac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18e92241c13b2ae564f9e139d6b34ed4') in 0.383671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/JapaneseSchool/Meshes/Corridor_A.fbx
+  artifactKey: Guid(ba688dee233fda741ad674449c40696c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Corridor_A.fbx using Guid(ba688dee233fda741ad674449c40696c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8eb4dd3f7b430808d411cc4a06de00b0') in 0.222347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Trim_B_1.prefab
+  artifactKey: Guid(2714f1afe2672f24e99dd59da85bee5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Trim_B_1.prefab using Guid(2714f1afe2672f24e99dd59da85bee5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '893b43234aeffa40fe486bdbecb4ebf3') in 0.053961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JapaneseSchool/Meshes/Trim_A_2.fbx
+  artifactKey: Guid(ab2f9ae95f84d6a45b50774a3dc4ff2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Trim_A_2.fbx using Guid(ab2f9ae95f84d6a45b50774a3dc4ff2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4a0c7a1d445ddba1b4140e0c4e19bed') in 0.047035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/JapaneseSchool/Materials/Grass_A.mat
+  artifactKey: Guid(872ad1aa69d2ec840bdc96d17b11ae58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Grass_A.mat using Guid(872ad1aa69d2ec840bdc96d17b11ae58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ea6dd962d44b9bd01a9914c79bc8f58') in 0.741698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/JapaneseSchool/Meshes/Floor_B.fbx
+  artifactKey: Guid(d75a1bd594a42ee42a1700bcabc0df2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Floor_B.fbx using Guid(d75a1bd594a42ee42a1700bcabc0df2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b56494acb737de175ab7f2ca8a1b95f') in 0.086149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/JapaneseSchool/Materials/Concrete_B.mat
+  artifactKey: Guid(cb6c4e0955d9ecd42979cb8db066a653) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Concrete_B.mat using Guid(cb6c4e0955d9ecd42979cb8db066a653) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcd3ce18f0f88cc298c6226936b22c88') in 0.064488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/JapaneseSchool/Meshes/Trim_B_2.fbx
+  artifactKey: Guid(2b0b3ecd30d40fa4bae35235f32d2884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Trim_B_2.fbx using Guid(2b0b3ecd30d40fa4bae35235f32d2884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '648526506dd2ec4ed357e9d19bd4035d') in 0.068726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Reflection Probes/Room Reflection Probe.prefab
+  artifactKey: Guid(be4f99baa0702e44081939c584e8ae74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Reflection Probes/Room Reflection Probe.prefab using Guid(be4f99baa0702e44081939c584e8ae74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '604aed8b1a2414327ddc698b51016775') in 0.020587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Reflection Probes/Classroom Reflection Probe.prefab
+  artifactKey: Guid(541c5168990c0cf4597296f51738a451) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Reflection Probes/Classroom Reflection Probe.prefab using Guid(541c5168990c0cf4597296f51738a451) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14af667c2f1263fa805bb80ae5490772') in 0.031698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Reflection Probes/Hallway Reflection Probe.prefab
+  artifactKey: Guid(0555eec19e47b8f40ae1842b06baf1ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Reflection Probes/Hallway Reflection Probe.prefab using Guid(0555eec19e47b8f40ae1842b06baf1ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fb15717155b53acf0719718cabe4133') in 0.011403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Reflection Probes/Hall 3 Reflection Probe.prefab
+  artifactKey: Guid(707f11e6015cb2a449c80daa08650ff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Reflection Probes/Hall 3 Reflection Probe.prefab using Guid(707f11e6015cb2a449c80daa08650ff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0aa4877626db630dc6bf9955b9cc5245') in 0.049445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/JapaneseSchool/Materials/Drywall_A.mat
+  artifactKey: Guid(a1f0ca651eaf6504caedd3115c5fb1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Drywall_A.mat using Guid(a1f0ca651eaf6504caedd3115c5fb1c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4b8fa84dd782e42568891da59bcbb75') in 0.082615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Window_Frame_B.prefab
+  artifactKey: Guid(492fd477ff9f7514d84a2b9618cc8826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Window_Frame_B.prefab using Guid(492fd477ff9f7514d84a2b9618cc8826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f725f89ef17f8c922178cb16cb273f4f') in 0.028723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/JapaneseSchool/Materials/Metal_A_1.mat
+  artifactKey: Guid(2312525488ce3da4e92b9178710213bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Metal_A_1.mat using Guid(2312525488ce3da4e92b9178710213bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0854bdc1a4a70bbcc2717fb430d35eaa') in 0.050656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JapaneseSchool/Meshes/Edge_A.fbx
+  artifactKey: Guid(23bee04459a0e0f4c820966ffc804930) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Edge_A.fbx using Guid(23bee04459a0e0f4c820966ffc804930) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdba692a41af5e6cc4a4ff07aba489cd') in 0.216917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/LightingData.asset
+  artifactKey: Guid(8f6cedc24e1c06d458443adfaf6ec563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/LightingData.asset using Guid(8f6cedc24e1c06d458443adfaf6ec563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bd6d13dd1aefbfc9e45d58e71150d5e') in 0.048820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001033 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Bush_B.prefab
+  artifactKey: Guid(b21afd3fef3bbd749954d02181a5dad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Bush_B.prefab using Guid(b21afd3fef3bbd749954d02181a5dad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a24ca2c4c998ca6c93c7b04926f8d89') in 0.041635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/JapaneseSchool/Materials/Metal_A.mat
+  artifactKey: Guid(fc9dbb6ccad928243a4d9ae9f94d32b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Metal_A.mat using Guid(fc9dbb6ccad928243a4d9ae9f94d32b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3deda792182cde40d80a74185f7d9f1a') in 0.047497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-10_comp_light.exr
+  artifactKey: Guid(6bd24b4feb16a54469685fbb7b4fb899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-10_comp_light.exr using Guid(6bd24b4feb16a54469685fbb7b4fb899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74dddd2d0706f59e0d27d9a0c569849b') in 0.154628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/JapaneseSchool/Materials/Plants_A.mat
+  artifactKey: Guid(9645e83efce836649a93864b8aa13588) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Plants_A.mat using Guid(9645e83efce836649a93864b8aa13588) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '245f54abf8f799abd277482a9c4281ba') in 0.030750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/JapaneseSchool/Meshes/Combined/Grass_B.asset
+  artifactKey: Guid(783a1a7d5826c824699e113dec444699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Combined/Grass_B.asset using Guid(783a1a7d5826c824699e113dec444699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab1eaaa5ffdeb28dd9924fcd51a9c8ac') in 0.019145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Floor_A.prefab
+  artifactKey: Guid(2439422bf28c0714387a2ea79773444c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Floor_A.prefab using Guid(2439422bf28c0714387a2ea79773444c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf3d4f1fbfc3f164d00868525266b7fd') in 0.019552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d40313316ef015f7a5a111f8a5bbc2a') in 0.009079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Trim_A_1.prefab
+  artifactKey: Guid(9bd89c7528539da499da641b2a5ecbb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Trim_A_1.prefab using Guid(9bd89c7528539da499da641b2a5ecbb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4023b025f3ba92d298dd792255ceac3b') in 0.042849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JapaneseSchool/Meshes/Combined/TreeBush_A.asset
+  artifactKey: Guid(617cf4bdfe2b22443b22bd0767bb9431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Combined/TreeBush_A.asset using Guid(617cf4bdfe2b22443b22bd0767bb9431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9517e9acc1505526bbad99dd597ea90') in 0.052176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-14_comp_light.exr
+  artifactKey: Guid(33aae69e9a788db468e06bcf3574cd8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-14_comp_light.exr using Guid(33aae69e9a788db468e06bcf3574cd8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cd22493effd87e4c6bb6f74fa86e8bd') in 0.065538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-16_comp_dir.png
+  artifactKey: Guid(f3fdc0a6c0deee54181fcb34a524194b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-16_comp_dir.png using Guid(f3fdc0a6c0deee54181fcb34a524194b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90fa24949d5a31c61b72e96b977ec3ab') in 0.109971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-17_comp_light.exr
+  artifactKey: Guid(b343fe45e17b3644ea8f3b15aeadaf72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-17_comp_light.exr using Guid(b343fe45e17b3644ea8f3b15aeadaf72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc3cc9c500a73571c180dd87af5dba29') in 0.050965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-19_comp_dir.png
+  artifactKey: Guid(36d599331a455d946a7e3079f3871595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-19_comp_dir.png using Guid(36d599331a455d946a7e3079f3871595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9099a467369ba368170b5f922d344cd') in 0.097568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Classroom_A.prefab
+  artifactKey: Guid(fb4f9de62cbce2b44ad44b26bc347cf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Classroom_A.prefab using Guid(fb4f9de62cbce2b44ad44b26bc347cf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cd3547cf4f9ba3788badcb9e500fbc9') in 0.033988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-12_comp_dir.png
+  artifactKey: Guid(c1d46437f4aaead488659a73e88e525c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-12_comp_dir.png using Guid(c1d46437f4aaead488659a73e88e525c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f62ff0664027f22b142aace23a391c5b') in 0.073607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/JapaneseSchool/Meshes/Wall_B.fbx
+  artifactKey: Guid(3dae9706ef7993f48b7d5c7d6c24aacd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Wall_B.fbx using Guid(3dae9706ef7993f48b7d5c7d6c24aacd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03e17f9638055bda7d7c43b19f7f5f04') in 0.067102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/JapaneseSchool/Materials/Metal_A_2.mat
+  artifactKey: Guid(dfa3668f9d760fd46acd3f0e2f21b6cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Metal_A_2.mat using Guid(dfa3668f9d760fd46acd3f0e2f21b6cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bce60c5415de7988b61bae7a02983f58') in 0.015382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Ground_B Variant.prefab
+  artifactKey: Guid(4ebefc18132bf1045b835da31be35eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Ground_B Variant.prefab using Guid(4ebefc18132bf1045b835da31be35eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc9fb38dc71a322f7f06fb696184e0c2') in 0.032992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Window_C.prefab
+  artifactKey: Guid(e9e42323d3419c74e802efc650d27b38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Window_C.prefab using Guid(e9e42323d3419c74e802efc650d27b38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87e058d2dde8ae08b3b4b7ff9acef8d0') in 0.024574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Desk_B.prefab
+  artifactKey: Guid(eb326cfe40c13a24eba628328ae397c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Desk_B.prefab using Guid(eb326cfe40c13a24eba628328ae397c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d3637847e2366c14b9fb3eb806709ae') in 0.025383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JapaneseSchool/Meshes/Chair_A.fbx
+  artifactKey: Guid(ed066fe65e3e72441bce69399f56d2a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Chair_A.fbx using Guid(ed066fe65e3e72441bce69399f56d2a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e3c61f5dab931d03931977d24c70404') in 0.042095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/JapaneseSchool/Meshes/Pillar_A.fbx
+  artifactKey: Guid(327b3b1ffc5935f439eee95a21fcb49c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Pillar_A.fbx using Guid(327b3b1ffc5935f439eee95a21fcb49c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33f9cddfd48a0074cf02106c194e179a') in 0.042075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Bush_A.prefab
+  artifactKey: Guid(a151c16dd44972946b4d2471a71259e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Bush_A.prefab using Guid(a151c16dd44972946b4d2471a71259e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '976384f925a991424ca8943a6baebdde') in 0.022266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Doorway_A.prefab
+  artifactKey: Guid(985f66943508c3847b89a21d18240cde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Doorway_A.prefab using Guid(985f66943508c3847b89a21d18240cde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e088a4cd14dbf494ed6eedd5405a9005') in 0.021847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JapaneseSchool/Materials/Brick_A.mat
+  artifactKey: Guid(b4b71574215b9f44fa576ad11c22d1cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Brick_A.mat using Guid(b4b71574215b9f44fa576ad11c22d1cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '985941d56646d4848dc8e91a27dd3615') in 0.027215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/JapaneseSchool/Meshes/Fence_A.fbx
+  artifactKey: Guid(2f38551a134305b478bdef9f06764bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Fence_A.fbx using Guid(2f38551a134305b478bdef9f06764bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41f68a7e73e13d823237f6b7068cbc9c') in 0.033171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JapaneseSchool/Volumes/Sky and Fog Settings Profile.asset
+  artifactKey: Guid(c03dabb06058eb841b2eb8d32d461ba6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Volumes/Sky and Fog Settings Profile.asset using Guid(c03dabb06058eb841b2eb8d32d461ba6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7c1445f0e16275256a9c210d7973610') in 0.013222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JapaneseSchool/Meshes/Fence_B.fbx
+  artifactKey: Guid(c8393d6658d9a784088b57cff4b2b8bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Fence_B.fbx using Guid(c8393d6658d9a784088b57cff4b2b8bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55f689d183cb327dfe80ca57ead8e26e') in 0.039660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Reflection Probes/Stairway Reflection Probe.prefab
+  artifactKey: Guid(decd0d9037a33234b81996108bdf62a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Reflection Probes/Stairway Reflection Probe.prefab using Guid(decd0d9037a33234b81996108bdf62a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '052e3ceac43b7db4ddff81f85e14d114') in 0.012560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JapaneseSchool/Meshes/Curb_A.fbx
+  artifactKey: Guid(fbeed8bb836ebab4697f64615d7ba822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Curb_A.fbx using Guid(fbeed8bb836ebab4697f64615d7ba822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b90bd6e66363be47f03f2c0362ea6da9') in 0.047351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Trim_Corner_A.prefab
+  artifactKey: Guid(554d15b6200f74e46ac02187ca815e0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Trim_Corner_A.prefab using Guid(554d15b6200f74e46ac02187ca815e0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7f1d799132c2ef671f203c4992aa27f') in 0.031536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/JapaneseSchool/Meshes/Trim_B_1.fbx
+  artifactKey: Guid(881002aeb7226f6459eab7c392072cb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Trim_B_1.fbx using Guid(881002aeb7226f6459eab7c392072cb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f21973e48674a931a8f51ce0aa999ea6') in 0.050492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(7aa722dfb26cefc4493e341bbe5f6411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-0.exr using Guid(7aa722dfb26cefc4493e341bbe5f6411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98f29bf7ad25c14ff0872365bf79e3d0') in 0.071295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006179 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-1_comp_light.exr
+  artifactKey: Guid(5f68185cff0315349ad231761bf7dfc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-1_comp_light.exr using Guid(5f68185cff0315349ad231761bf7dfc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e12ee30ee73aa5d7980f2d7655a54ca') in 0.048257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-23_comp_light.exr
+  artifactKey: Guid(6a0eb63085f4fea4dbebb6ac73e7219b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-23_comp_light.exr using Guid(6a0eb63085f4fea4dbebb6ac73e7219b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73708758a210339d89695cde1cf0e0fa') in 0.041570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-3_comp_light.exr
+  artifactKey: Guid(6314840fc7959584f8b41761178c01d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-3_comp_light.exr using Guid(6314840fc7959584f8b41761178c01d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b847cd74d7a6d23708734b1f5082a060') in 0.077602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-29_comp_light.exr
+  artifactKey: Guid(0a72a4fb8635bdf43bfd70646ed3c4bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-29_comp_light.exr using Guid(0a72a4fb8635bdf43bfd70646ed3c4bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e427f135f1e13dda0fac3f5990d5be3') in 0.050431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-7_comp_dir.png
+  artifactKey: Guid(680784d1e7bf8bb48bb8eab8b96d646d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-7_comp_dir.png using Guid(680784d1e7bf8bb48bb8eab8b96d646d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd4882ebc070bc76f815534f751adcc7') in 0.046994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-29_comp_dir.png
+  artifactKey: Guid(60a178dc1c98a444fa97a33942bba582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-29_comp_dir.png using Guid(60a178dc1c98a444fa97a33942bba582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7056f0181e41e5260e55fa9835c80f69') in 0.039843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-25_comp_light.exr
+  artifactKey: Guid(6ed2b4acab060274eb9fc8b235c5a950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-25_comp_light.exr using Guid(6ed2b4acab060274eb9fc8b235c5a950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed889ae380c2cc57915f2c950fffc32c') in 0.059042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-20.exr
+  artifactKey: Guid(2ba1175943d4311448a6f2a8370cbd60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-20.exr using Guid(2ba1175943d4311448a6f2a8370cbd60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3ce733c85701c96cefc9df64e7aa1e7') in 0.027948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-6_comp_dir.png
+  artifactKey: Guid(e50e953b008e53b4e9cea2de1c9e92cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-6_comp_dir.png using Guid(e50e953b008e53b4e9cea2de1c9e92cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '882f82dcbe0199e920e6a3f99317bca8') in 0.061342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-9_comp_dir.png
+  artifactKey: Guid(6cc88ca68933e2e4091dd4adbce45938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-9_comp_dir.png using Guid(6cc88ca68933e2e4091dd4adbce45938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '662b356b6881b22bfd815efd74e14813') in 0.047747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-28_comp_dir.png
+  artifactKey: Guid(1358dec213469584e9567572e43290ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-28_comp_dir.png using Guid(1358dec213469584e9567572e43290ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '882e2c39688951387855427367be1e15') in 0.067802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-25_comp_dir.png
+  artifactKey: Guid(eec9746c8d008384d947bd8d27ba879e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-25_comp_dir.png using Guid(eec9746c8d008384d947bd8d27ba879e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e93d80601b0820022f023941d0cc9512') in 0.043990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-6_comp_light.exr
+  artifactKey: Guid(90f0488271c69fe42a76f54f93dd1153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-6_comp_light.exr using Guid(90f0488271c69fe42a76f54f93dd1153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c153439d66c9ec3550af07d4c793aacf') in 0.036060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-18_comp_dir.png
+  artifactKey: Guid(47b054b1af7765f4cb73bf4e4722a068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-18_comp_dir.png using Guid(47b054b1af7765f4cb73bf4e4722a068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f636365fb31a9000c8f74f6c659c02e') in 0.067113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JapaneseSchool/Materials/Leaves_A.mat
+  artifactKey: Guid(e4321ee28a64f05469744c8503e4014a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Leaves_A.mat using Guid(e4321ee28a64f05469744c8503e4014a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13d4988e0e9ffd1ada6cac359e37f434') in 0.049226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-21_comp_light.exr
+  artifactKey: Guid(259074526a7abe24b94d12ae33342b08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-21_comp_light.exr using Guid(259074526a7abe24b94d12ae33342b08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43feadf73a275dad0768e1b910551777') in 0.067245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/JapaneseSchool/Materials/Glass_A.mat
+  artifactKey: Guid(86c5da67f8396dd44851d68ec2e38986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Glass_A.mat using Guid(86c5da67f8396dd44851d68ec2e38986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc06d4e1bcdbb760a2f714774296f82f') in 0.023578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-31.exr
+  artifactKey: Guid(dad9a04880512744fb60d1e827c2005f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-31.exr using Guid(dad9a04880512744fb60d1e827c2005f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55793fb26acba525768ddb96cdb4568c') in 0.038671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-32.exr
+  artifactKey: Guid(6fa5625d6ee85864ab9586cecdaa4d46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-32.exr using Guid(6fa5625d6ee85864ab9586cecdaa4d46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a2b4aa5857c851dcf6783336c31cb1f') in 0.054450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-37.exr
+  artifactKey: Guid(26dfeb41fd8f9a546b4681e2083464f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-37.exr using Guid(26dfeb41fd8f9a546b4681e2083464f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d9157c3b641f9f61b4ddea490a7a1d9') in 0.035422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-8.exr
+  artifactKey: Guid(1bc2589fb18601e42befebc9d8bbf580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-8.exr using Guid(1bc2589fb18601e42befebc9d8bbf580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '889a6077492ced3e415230861ed3dbed') in 0.040644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-4.exr
+  artifactKey: Guid(ece6d57aa7e89924a8e68ed9c88efd60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-4.exr using Guid(ece6d57aa7e89924a8e68ed9c88efd60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dce54c406fa14ece60583f695be72c6') in 0.041516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-6.exr
+  artifactKey: Guid(417e439ee57cb8b418c54cea6d76e4fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-6.exr using Guid(417e439ee57cb8b418c54cea6d76e4fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fc68facf8a02dc82caa1216b0cbe847') in 0.053993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-22_comp_dir.png
+  artifactKey: Guid(bae1c1f4718e05f4ca4d6fe836127b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-22_comp_dir.png using Guid(bae1c1f4718e05f4ca4d6fe836127b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dba1d2c323b5f437f9b9865bac8787e4') in 0.039761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-7.exr
+  artifactKey: Guid(6a282739d1166d94b8357e156b5a9723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-7.exr using Guid(6a282739d1166d94b8357e156b5a9723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8445834ec3c28c74baa0184662457527') in 0.038459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-29.exr
+  artifactKey: Guid(b8e28092a51e38d4cbf32888b4810084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-29.exr using Guid(b8e28092a51e38d4cbf32888b4810084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0e0057b32c5abd1748995306ab8fc4d') in 0.038553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/JapaneseSchool/Meshes/Door_A.fbx
+  artifactKey: Guid(116c643e5d6b5544bb7c60e56bf6fe25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Door_A.fbx using Guid(116c643e5d6b5544bb7c60e56bf6fe25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dcbe2b8a7a75d7bb774b7b1ef2b7abb') in 0.029789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Trim_B_2.prefab
+  artifactKey: Guid(49756508d0074354aa51039227f03167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Trim_B_2.prefab using Guid(49756508d0074354aa51039227f03167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b60a77c8f39d48fdb6358f002969013b') in 0.017825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/JapaneseSchool/Materials/Metal_A_3.mat
+  artifactKey: Guid(8e158bf7bf199934c957c0ae609e3ffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Metal_A_3.mat using Guid(8e158bf7bf199934c957c0ae609e3ffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e6a564efb9c0d393ad12233384d7816') in 0.016367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JapaneseSchool/Meshes/Desk_A.fbx
+  artifactKey: Guid(64ed49d66c329b84ab550c9febd3134f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Desk_A.fbx using Guid(64ed49d66c329b84ab550c9febd3134f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a2b0a7d83120db34d9937e151a65740') in 0.035109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JapaneseSchool/Materials/Floor_A.mat
+  artifactKey: Guid(35ffa5c486d7abb499b827545756fbe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Materials/Floor_A.mat using Guid(35ffa5c486d7abb499b827545756fbe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4dd38081b4a87b0f62fff869ab25fcd') in 0.017051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-26_comp_dir.png
+  artifactKey: Guid(240bc1eb5b230ae4f8d3bb7f4480df0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-26_comp_dir.png using Guid(240bc1eb5b230ae4f8d3bb7f4480df0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b9f28f44524d81b12e46b2f91b37968') in 0.030864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo.unity
+  artifactKey: Guid(a1cd650cd0dd46e4aa080252d67c344d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo.unity using Guid(a1cd650cd0dd46e4aa080252d67c344d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8ba1095e5833a34c106ef34a2c3a491') in 0.010377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Plant_A.prefab
+  artifactKey: Guid(929f64799c205bd4eb3fe5020f20ba7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Plant_A.prefab using Guid(929f64799c205bd4eb3fe5020f20ba7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '928d85959cff3185031a7cb8aa8a32d9') in 0.014272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-14.exr
+  artifactKey: Guid(47ab7c3305e832843a3329c5cf5cd840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-14.exr using Guid(47ab7c3305e832843a3329c5cf5cd840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38f59efea22f71b37566e215ced8068a') in 0.028415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JapaneseSchool/Textures/Bark_A/Bark_A_Normal.png
+  artifactKey: Guid(c498ddb2880ed5846ad21bc4e92d5a76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Bark_A/Bark_A_Normal.png using Guid(c498ddb2880ed5846ad21bc4e92d5a76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab327a50800f5e28e63717ea257a882a') in 0.053933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/JapaneseSchool/Textures/Brick_C/Brick_C_MaskMap.png
+  artifactKey: Guid(2eadb0ee7a3ab4b4da0464b11850f0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Brick_C/Brick_C_MaskMap.png using Guid(2eadb0ee7a3ab4b4da0464b11850f0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83f1e03c12c0f0228a4ac76933a2d3e6') in 0.100797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/JapaneseSchool/Textures/Brick_A/Brick_A_Normal.png
+  artifactKey: Guid(71cb7f81d8ae1c143bde3b847281a5de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Brick_A/Brick_A_Normal.png using Guid(71cb7f81d8ae1c143bde3b847281a5de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4efb43ac1e9570da58eea0e88b09fa64') in 0.083345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/JapaneseSchool/Textures/Metal_A/Metal_A_MaskMap.png
+  artifactKey: Guid(1718d77a154aeca478cb4477ac3024f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Metal_A/Metal_A_MaskMap.png using Guid(1718d77a154aeca478cb4477ac3024f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17aa2b3db49d795e900c6dc5d19c0f4f') in 0.116600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/JapaneseSchool/Textures/Metal_A/Metal_A_Normal.png
+  artifactKey: Guid(486787e995498a14aa98bcfb2ef5cc9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Metal_A/Metal_A_Normal.png using Guid(486787e995498a14aa98bcfb2ef5cc9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb3038c340f384654e7fed664259ef07') in 0.097006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/JapaneseSchool/Textures/Brick_A/Brick_A_Height.png
+  artifactKey: Guid(c831a674b88e4eb4a9ba5865858754db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Brick_A/Brick_A_Height.png using Guid(c831a674b88e4eb4a9ba5865858754db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '319a2a65e578e56904d6a0aef00b5d05') in 0.061797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/JapaneseSchool/Textures/Concrete_B/Concrete_B_MaskMap.png
+  artifactKey: Guid(8651dccd0e38d3743a124065662adf60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Concrete_B/Concrete_B_MaskMap.png using Guid(8651dccd0e38d3743a124065662adf60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a40c38f0301c8a591c57eebd5def7fe') in 0.075721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JapaneseSchool/Textures/Concrete_A/Concrete_A_MaskMap.png
+  artifactKey: Guid(e202f31c28cc3434dbdd48c330b8dddf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Concrete_A/Concrete_A_MaskMap.png using Guid(e202f31c28cc3434dbdd48c330b8dddf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30bf5fef7f813931e07eca612bee0e37') in 0.077274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JapaneseSchool/Textures/Drywall_A/Drywall_A_MaskMap.png
+  artifactKey: Guid(9a636e62ea65cbc42a1edce94762f5b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Drywall_A/Drywall_A_MaskMap.png using Guid(9a636e62ea65cbc42a1edce94762f5b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b22b73cd0332950df327f675677a27e0') in 0.066678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-3.exr
+  artifactKey: Guid(d120a0d0b6116a44a94d185a8aaeed9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-3.exr using Guid(d120a0d0b6116a44a94d185a8aaeed9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c5906e895f0f80547ae3af87667dbac') in 0.042655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-39.exr
+  artifactKey: Guid(6b39bc15bf9d14e4787116b9241814b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-39.exr using Guid(6b39bc15bf9d14e4787116b9241814b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89bda5fd2d423fb8197f1f6755c72bc6') in 0.041246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JapaneseSchool/Textures/Brick_B/Brick_B_Normal.png
+  artifactKey: Guid(c358300a217dd8a499cdf2ce0b853ea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Brick_B/Brick_B_Normal.png using Guid(c358300a217dd8a499cdf2ce0b853ea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40c321f30e2660a86b2f35db96c8cfca') in 0.060766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JapaneseSchool/Textures/Bark_A/Bark_A_MaskMap.png
+  artifactKey: Guid(741c2994e65fad245b7327e823e69fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Bark_A/Bark_A_MaskMap.png using Guid(741c2994e65fad245b7327e823e69fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc3bb444d8e705574d740c3487f64fe5') in 0.064660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-2.exr
+  artifactKey: Guid(5d5c28da782364c4a8d036675ef08893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-2.exr using Guid(5d5c28da782364c4a8d036675ef08893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3f2d9a5bd4ff6aaf69e250f62b21ff8') in 0.052670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/JapaneseSchool/Textures/Brick_A/Brick_A_BaseMap.png
+  artifactKey: Guid(07b4f777ce160d04985408a2df69f677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Brick_A/Brick_A_BaseMap.png using Guid(07b4f777ce160d04985408a2df69f677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e7ed8c1833aa0f768ddda2d1ce07eb0') in 0.045894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/JapaneseSchool/Textures/Leaves_A/Leaves_A_Basecolor.png
+  artifactKey: Guid(239c4c912ce9bfb4c8b0d14e91ab61a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Leaves_A/Leaves_A_Basecolor.png using Guid(239c4c912ce9bfb4c8b0d14e91ab61a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba2e5322ff79a27ec3837b7e536fe3c2') in 0.035937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-2_comp_light.exr
+  artifactKey: Guid(92d5330662b3fad48abc52e4cbababae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-2_comp_light.exr using Guid(92d5330662b3fad48abc52e4cbababae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74910d4dcc9026124c73e3719341a71e') in 0.069283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-19.exr
+  artifactKey: Guid(a36e4dbfdc201d74bb188bf848a61e1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-19.exr using Guid(a36e4dbfdc201d74bb188bf848a61e1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41cbaf4ad020683a5ccc79feb59bef56') in 0.031907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/JapaneseSchool/Textures/Brick_C/Brick_C_BaseMap.png
+  artifactKey: Guid(a637a01c50f0f6f44b7564ec0d584a32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Brick_C/Brick_C_BaseMap.png using Guid(a637a01c50f0f6f44b7564ec0d584a32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f19cf645e4a7fca00273c029816096e') in 0.060733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JapaneseSchool/Textures/ChairDesk_A/ChairDesk_A_Normal.png
+  artifactKey: Guid(d89f7b7a04497714ba9127e413e41cf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/ChairDesk_A/ChairDesk_A_Normal.png using Guid(d89f7b7a04497714ba9127e413e41cf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11551a53b9709a73511ad13d699b39d2') in 0.059903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-17.exr
+  artifactKey: Guid(c3abe303ec199a646be2dc538d9929e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-17.exr using Guid(c3abe303ec199a646be2dc538d9929e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9757d9a27a76f84c6fd4e35ddb8efdb') in 0.048793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/JapaneseSchool/Textures/Floor_A/Floor_A_Normal.png
+  artifactKey: Guid(9ed13c800c8296c49baba330389886a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Floor_A/Floor_A_Normal.png using Guid(9ed13c800c8296c49baba330389886a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bd54b7b949b51082d24d9aff7d9653c') in 0.076589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-9_comp_light.exr
+  artifactKey: Guid(7955caee0c79d4f41a8ed25c3e364d3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-9_comp_light.exr using Guid(7955caee0c79d4f41a8ed25c3e364d3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ce512d5c73b5f597da3887b643e75d1') in 0.052057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-24_comp_light.exr
+  artifactKey: Guid(76397b8d6908875418df630667834b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-24_comp_light.exr using Guid(76397b8d6908875418df630667834b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21d44e25e9a8140ff2f20a8baa538695') in 0.051455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-11.exr
+  artifactKey: Guid(8d1ec002fd58f304eacd1e6583156f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-11.exr using Guid(8d1ec002fd58f304eacd1e6583156f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cffad8339de23f97bf79bb2f9d92c00') in 0.036710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-15.exr
+  artifactKey: Guid(daf61038b5c25e245a77b07d4ae01a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-15.exr using Guid(daf61038b5c25e245a77b07d4ae01a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1907fef30e86fd3d35c502327a3061eb') in 0.035788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Pillar_A.prefab
+  artifactKey: Guid(bbc280f549de2dd4abd9b39b1a79262b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Pillar_A.prefab using Guid(bbc280f549de2dd4abd9b39b1a79262b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f699e164b7e4e7bec8dfb7115f81fc9') in 0.027778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Wall_B.prefab
+  artifactKey: Guid(2640b72d97540064aa561dc761469b7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Wall_B.prefab using Guid(2640b72d97540064aa561dc761469b7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a7e3719c51a2ab85e17791d13bc5fad') in 0.021677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/JapaneseSchool/Shader/MasterMaterial.shadergraph
+  artifactKey: Guid(e66a6962a0a85c047a4562d2a5cbec3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Shader/MasterMaterial.shadergraph using Guid(e66a6962a0a85c047a4562d2a5cbec3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1941a90588f9b3f4a0141d43a8e170c2') in 0.020963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-28.exr
+  artifactKey: Guid(0e7ff28ef057a4542ba847ef971ce7ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-28.exr using Guid(0e7ff28ef057a4542ba847ef971ce7ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '600ef8c83b6f199019e97878fb9e6427') in 0.040774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Fence_B.prefab
+  artifactKey: Guid(3e513cd00a2763e41b906951a7a2f00d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Fence_B.prefab using Guid(3e513cd00a2763e41b906951a7a2f00d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52312752c2c818663c8894e415389453') in 0.026525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-5_comp_dir.png
+  artifactKey: Guid(913c26babe42c1345bcd9ce1f9238aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-5_comp_dir.png using Guid(913c26babe42c1345bcd9ce1f9238aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19bccf6e7d3d5019e2b8f062e8d7a87c') in 0.039029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-13_comp_dir.png
+  artifactKey: Guid(3c2ec2c00479b13448272d0785f47d83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-13_comp_dir.png using Guid(3c2ec2c00479b13448272d0785f47d83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f49dd887ba52cd33ceda9251915852be') in 0.083888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-17_comp_dir.png
+  artifactKey: Guid(f9f9fe3ab7e1e81499e5803e70f0e526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-17_comp_dir.png using Guid(f9f9fe3ab7e1e81499e5803e70f0e526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '334e29eafb1db89e3777bf0e77bed983') in 0.042730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-18.exr
+  artifactKey: Guid(4ad104f60f64c7b44b89534ef3a6e30a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-18.exr using Guid(4ad104f60f64c7b44b89534ef3a6e30a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ab88125ea6329848fa0a8f5f6290d43') in 0.042478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-41.exr
+  artifactKey: Guid(b761de33c96117745a80ffc433037424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-41.exr using Guid(b761de33c96117745a80ffc433037424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85b98b0767a083751be9f169a8e69288') in 0.078279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/JapaneseSchool/Meshes/Window_A.fbx
+  artifactKey: Guid(b876ffebbff57aa44930875194a771b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Window_A.fbx using Guid(b876ffebbff57aa44930875194a771b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8ebdef999fd97d6c025e330f21a6710') in 0.082283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(1a6b8b4fb7911f841ae57ca6e0334558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer.terrainlayer using Guid(1a6b8b4fb7911f841ae57ca6e0334558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6be91ec6784af9f815086dde9d791f09') in 0.023449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-1_comp_dir.png
+  artifactKey: Guid(f81d48ef0bb048a45b86a7d274c15dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-1_comp_dir.png using Guid(f81d48ef0bb048a45b86a7d274c15dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bd7cc5e6b637f7506eefa2811435b0b') in 0.149243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-21.exr
+  artifactKey: Guid(618b2536289002341a2ffc214a6bc6c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-21.exr using Guid(618b2536289002341a2ffc214a6bc6c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '064b416caff1e48c9f188a6a7f34f99e') in 0.054623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-40.exr
+  artifactKey: Guid(026a2560cc0bfea458e24d0ffec4aaa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/ReflectionProbe-40.exr using Guid(026a2560cc0bfea458e24d0ffec4aaa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3f3caf281c3c9adcdb375770c06ca55') in 0.045093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/JapaneseSchool/Meshes/Stair_B.fbx
+  artifactKey: Guid(d9ab4872d42540143aae7e10ffd16e90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Stair_B.fbx using Guid(d9ab4872d42540143aae7e10ffd16e90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5f878f86b1c4c415af5fadf5d5d3532') in 0.036816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JapaneseSchool/Textures/Metal_A/Metal_A_BaseColor.png
+  artifactKey: Guid(0c185a8680a7565409fc64cbc575a0d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Textures/Metal_A/Metal_A_BaseColor.png using Guid(0c185a8680a7565409fc64cbc575a0d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c00a0708f5bf729201f66c7a53a633ca') in 0.049606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-27_comp_light.exr
+  artifactKey: Guid(d59acb7835a4b4f4083bbe6bc1fa7ef7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-27_comp_light.exr using Guid(d59acb7835a4b4f4083bbe6bc1fa7ef7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2756885790fbc1c7dc9857a12769ca13') in 0.035599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Window_F.prefab
+  artifactKey: Guid(2e4df918079ca9040b01326498415a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Window_F.prefab using Guid(2e4df918079ca9040b01326498415a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '797e083eb42ecc735c33fa7920c3c48c') in 0.038537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JapaneseSchool/Volumes/Box Volume Profile.asset
+  artifactKey: Guid(16c90c799c3249e4fa34001cf1f7637d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Volumes/Box Volume Profile.asset using Guid(16c90c799c3249e4fa34001cf1f7637d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06f906d3ef8c591f6bbd479f557eeb13') in 0.016860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JapaneseSchool/Scenes/Demo/Lightmap-26_comp_light.exr
+  artifactKey: Guid(425f7fffc8f95874da9fba7af92723e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Scenes/Demo/Lightmap-26_comp_light.exr using Guid(425f7fffc8f95874da9fba7af92723e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84847421f99b92d588e6e5f4dd682b55') in 0.045712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JapaneseSchool/Meshes/Bush_B.fbx
+  artifactKey: Guid(68cb46d0cdb2a4148acb45de5ddd07d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Meshes/Bush_B.fbx using Guid(68cb46d0cdb2a4148acb45de5ddd07d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01f83f3425726943026186f2420f4152') in 0.051343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Stair_B.prefab
+  artifactKey: Guid(fb408268f94804b40ac9c22dd21852eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Stair_B.prefab using Guid(fb408268f94804b40ac9c22dd21852eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '052405f78f6ed01d23631a543564d65a') in 0.022214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Window_A.prefab
+  artifactKey: Guid(85c977133d47f7541a19f90678fba874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseSchool/Prefabs/Window_A.prefab using Guid(85c977133d47f7541a19f90678fba874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '120aa9c8364e41738c25c1c575f84d82') in 0.016286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.441670 seconds.
+  path: Assets/JapaneseSchool/Prefabs/Window_E.prefab
+  artifactKey: Guid(dc5ea2ebd9636bc4cbb313754f63a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseSchool/Prefabs/Window_E.prefab using Guid(dc5ea2ebd9636bc4cbb313754f63a091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89b44026d3c029c3719df0ed1f4c286') in 0.191822 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (29.0 KB). Loaded Objects now: 1869.
+Memory consumption went from 85.6 MB to 85.5 MB.
+Total: 132.705400 ms (FindLiveObjects: 0.524200 ms CreateObjectMapping: 0.071800 ms MarkObjects: 132.051800 ms  DeleteObjects: 0.055900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

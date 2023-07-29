@@ -24,7 +24,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Brick_B
+<<<<<<< HEAD
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+=======
+  m_Shader: {fileID: 10761, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> 0979e265238de1cfa9720117b261738a1513ed8e
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -98,7 +102,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailTex:
+<<<<<<< HEAD
         m_Texture: {fileID: 0}
+=======
+        m_Texture: {fileID: 2800000, guid: 62891e04c6cefac43b2cc8035b8d251b, type: 3}
+>>>>>>> 0979e265238de1cfa9720117b261738a1513ed8e
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -129,6 +137,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5357bdffa884d3c49be1610e78c11511, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalMap:
         m_Texture: {fileID: 2800000, guid: c358300a217dd8a499cdf2ce0b853ea4, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -145,10 +157,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+=======
+>>>>>>> 0979e265238de1cfa9720117b261738a1513ed8e
     - _SpecularColorMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
