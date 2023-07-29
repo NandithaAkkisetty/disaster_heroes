@@ -4,39 +4,30 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
-    [SerializeField] float turnSpeed = 90f;
-    [SerializeField] float headUpperAngle = 85f;
-    [SerializeField] float headLowerAngle = -75f;
-    float yaw = 0f;
-    float pitch = 0f;
-    Quaternion bodyStartOrientation;
-    Quaternion headStartOrientation;
-    Transform head;
+    public float sensX;
+    public float sensY;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        head = GetComponentInChildren<Camera>().transform;
-        bodyStartOrientation = transform.localRotation;
-        headStartOrientation = head.transform.localRotation;
-        Cursor.lockState = CursorLockMode.Locked; 
+    public Transform orientation;
+
+    float xRotation;
+    float yRotation;
+
+    private void Start(){
+        Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
     }
 
-    void Update()
-    {
-        var horizontal = Input.GetAxis("Mouse X") * Time.deltaTime * turnSpeed;
-        var vertical = Input.GetAxis("Mouse Y") * Time.deltaTime * turnSpeed;
+    private void Update(){
+        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
+        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
 
-        yaw += horizontal;
-        pitch += vertical;
+        yRotation += mouseX;
 
-        pitch = Mathf.Clamp(pitch, headLowerAngle, headUpperAngle);
-        var bodyRotation = Quaternion.AngleAxis(yaw, Vector3.up);
-        var headRotation = Quaternion.AngleAxis(pitch, Vector3.right);
-        transform.localRotation = bodyRotation * bodyStartOrientation;
-        head.localRotation = bodyRotation * headStartOrientation;
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
+        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+        orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+        
     }
 }

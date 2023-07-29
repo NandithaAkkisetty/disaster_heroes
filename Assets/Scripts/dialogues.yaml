@@ -1,0 +1,14 @@
+? = What do you want to do?
+  - A = Hide under a bench
+      = You are safe
+  - B = Stay at corridors
+      - ? = Would you like to go outside?
+          - A = Yes
+              - ? = Would you like to use stairs or lifts?
+                  - A = Stairs
+                      = You are safe
+                  - B = Lift
+                      = You should avaoid using lifts in case of earthquakes
+          - B = No 
+              = You should try to hide under Desks or Stay at an open area afar from glasses
+            
